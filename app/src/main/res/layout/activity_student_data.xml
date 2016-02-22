@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/used_gray1"
+    tools:context=".StudentData">
+
+    <include layout="@layout/app_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_1"
+            tools:context=".StudentData">
+
+            <ImageView
+                android:id="@+id/image_iv"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_launcher" />
+
+            <TextView
+                android:id="@+id/student_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_iv"
+                android:text="@string/student_name_tv"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/custom_row_used_size" />
+
+            <TextView
+                android:id="@+id/student_name_enter_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_iv"
+                android:textColor="@android:color/black"
+                android:layout_toRightOf="@+id/student_name_tv"
+                android:text="@string/student_name_enter_tv"
+                android:textSize="@dimen/custom_row_used_size" />
+
+            <TextView
+                android:id="@+id/student_roll_no_tv"
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/student_name_tv"
+                android:text="@string/student_roll_no_tv"
+                android:textSize="@dimen/custom_row_used_size" />
+
+            <TextView
+                android:id="@+id/student_roll_no_enter_tv"
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/student_name_tv"
+                android:layout_toRightOf="@+id/student_roll_no_tv"
+                android:text="@string/student_roll_no_enter_tv"
+                android:textSize="@dimen/custom_row_used_size" />
+
+            <TextView
+                android:id="@+id/class_tv"
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/student_roll_no_tv"
+                android:text="@string/class_tv"
+                android:textSize="@dimen/custom_row_used_size" />
+
+            <TextView
+                android:id="@+id/class_enter_tv"
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/student_roll_no_tv"
+                android:layout_toRightOf="@id/class_tv"
+                android:text="@string/class_enter_tv"
+                android:textSize="@dimen/custom_row_used_size" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

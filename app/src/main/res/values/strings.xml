@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SchooAppProject</string>
+    <string name="start_btn">Start</string>
+    <string name="email_et">Enter e-mail</string>
+    <string name="password_et">Enter password</string>
+    <string name="login_btn">Login</string>
+    <string name="forgot_password_text_view">Forgot Password?</string>
+    <string name="class1_btn">1st class</string>
+    <string name="class2_btn">2nd class</string>
+    <string name="class3_btn">3rd class</string>
+    <string name="class4_btn">4th class</string>
+    <string name="class5_btn">5th class</string>
+    <string name="student_name_tv">Name :</string>
+    <string name="student_name_enter_tv">Enter Name of Student</string>
+    <string name="student_roll_no_tv">Roll No :</string>
+    <string name="student_roll_no_enter_tv">Integer</string>
+    <string name="class_tv">Class :</string>
+    <string name="class_enter_tv">Class of Student</string>
+</resources>
